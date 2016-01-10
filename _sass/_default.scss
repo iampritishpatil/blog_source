@@ -164,6 +164,12 @@ strong {
     color: $iron;
 }
 
+.post-teaser__readtime {
+    font-size: 16px;
+    color: $cloudy;
+}
+
+
 .post-teaser__date {
     font-size: 16px;
     float: right;
@@ -284,6 +290,12 @@ strong {
         @include centered-block();
     }
 
+    .post-teaser__readtime {
+        font-size: 16px;
+        @include centered-block();
+    }
+
+
     .post-teaser__date {
         font-size: 16px;
         margin-top: 10px;
@@ -302,4 +314,10 @@ strong {
     .post-title__subtitle {
         font-size: 18px;
     }
+}
+
+
+::selection {
+    background: transparent;
+    text-shadow: #000 0 0 2px;
 }
