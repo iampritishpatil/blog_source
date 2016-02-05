@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-subtitle: Who am I?
+title: "other"
+subtitle: "test other page"
 permalink: /other/
 ---
 
-I am a 4th year undergraduate at Indian Institute of Science. 
+Other page.
